@@ -10,6 +10,7 @@ body{
 
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width{
@@ -25,7 +26,7 @@ section{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
     color: white;
-    padding: 10px 40px;
+    padding: 10px 20px;
     border-radius: 5px;
     font-weight: 700;
 }
@@ -33,4 +34,17 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.mid-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.bottom-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
